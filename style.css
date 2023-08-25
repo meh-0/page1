@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@400;700&family=Roboto&family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    z-index: 100000;
+    padding: 30px 10%;
+}
+
+
+
+
+.logo{
+    position: relative;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+li, a{
+    position: relative;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header .logo{
+    cursor: pointer;
+    position: relative;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+.navlinks li a{
+    transition: all 0.4s ease 0s;
+}
+.text {
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.button{
+    height: 40px;
+    width:  150px;
+    border-radius: 50px;
+    background-color: rgb(8,8,75);
+    color: white;
+    border-color: white;
+    margin-left: 50px;
+}
+.button:hover{
+    background-color: white;
+    color: rgb(8,8,75);
+    text-decoration: underline;
+}
+.image{
+    float: right;
+    height: 300px;
+    width: 500px;
+    margin-right: 30px;
+}
+.text2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.last{
+    background-color: white;
+    
+}
+.last{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+nav li  a:hover{
+    color: rgb(139, 139, 252);
+    text-decoration: underline;
+    text-decoration-color:  white;
+}
+.logo:hover{
+    color: blue;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    font-family: 'Belanosima', sans-serif;
+}
+.box1{
+    width: 22%;
+    height:400px;
+    background-color: palevioletred;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box1 i{
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+p, a{
+    margin-left: 10px;
+    font-size: x-large;
+    font-family: 'Montserrat';
+    margin-right: 20px;
+}
+h1{
+    margin-left: 10px;
+}
+.box2{
+    width: 22%;
+    height:400px;
+    background-color: rgba(255, 255, 0, 0.801);
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box3{
+    width: 22%;
+    height:400px;
+    background-color: lightblue;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box4{
+    width: 22%;
+    height:400px;
+    background-color: rgb(144, 238, 167);
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box2 i{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.box3 i{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.box4 i{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.box1 a:hover{
+    text-decoration: underline;    
+}
+.box2 a:hover{
+    text-decoration: underline;    
+}
+.box3 a:hover{
+    text-decoration: underline;    
+}
+.box4 a:hover{
+    text-decoration: underline;    
+}
+.mine:hover{
+    color: white;
+    text-decoration: underline;
+}
